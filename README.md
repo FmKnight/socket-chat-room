@@ -78,7 +78,7 @@
 ![服务器端口设置](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/11.png)
 
 2、将远程服务器ip绑定为"0.0.0.0",即允许监听所有端口。
-![远程测试端口](E:/Program/socket_chat_room/socket-image/12.png)
+![远程测试端口](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/12.png)
 
 设置后，客户端与服务端即可正常通信。
 
