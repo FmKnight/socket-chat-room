@@ -20,16 +20,16 @@
 
 运行服务端代码，服务正在监听等待请求消息：
 
-![服务端监听](E:\Program\socket_chat_room\socket-image\1.png)
+![服务端监听](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/1.png)
 
 
 运行客户端代码client.py，可以看到服务端显示有客户端请求：
 
-![显示客户端请求](E:\Program\socket_chat_room\socket-image\3.png)
+![显示客户端请求](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/3.png)
 
 此时客户端部分，桌面会弹出一个新的页面，如下所示：
 
-![图形化界面](E:\Program\socket_chat_room\socket-image\2.png)
+![图形化界面](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/2.png)
 
 图形化界面主要包含三个部分：
 
@@ -41,41 +41,41 @@
 
 若在字典中，则验证通过，服务器端显示成功连接：
 
-![连接成功](E:\Program\socket_chat_room\socket-image\4.png)
+![连接成功](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/4.png)
 
 此时客户端的昵称、密码输入框以及加入群聊按钮都被禁用，即不允许再修改身份：
 
-![禁用按钮](E:\Program\socket_chat_room\socket-image\5.png)
+![禁用按钮](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/5.png)
 
 若身份验证失败，则服务端显示身份验证失败，断开连接：
 
-![验证失败，断开连接](E:\Program\socket_chat_room\socket-image\6.png)
+![验证失败，断开连接](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/6.png)
 
 此时客户端弹出身份验证失败提示框：
 
-![](E:\Program\socket_chat_room\socket-image\7.png)
+![](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/7.png)
 
 当新的客户端加入聊天室时，聊天区会展示该用户已加入群聊(has joined）。在三个客户端分别键入消息并发送，其结果如下：
 
-![运行结果](E:\Program\socket_chat_room\socket-image\8.png)
+![运行结果](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/8.png)
 
 此处需要注意的几个地方：
 
 *   通过tkinter的事件绑定，昵称、密码输入后，点击“加入群聊”按钮，输入框状态修改为"disabled",即无法再修改身份信息。
 *   聊天区也绑定了事件<KeyPress>，即聊天区消息无法通过键盘输入或修改。
 
-![无法修改身份](E:\Program\socket_chat_room\socket-image\9.png)
+![无法修改身份](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/9.png)
 
 *   当未输入昵称或密码，直接点击“加入群聊按钮”，或者尝试在消息区编写发送消息，系统会弹出提示框，提醒用户先进行登录。
 
-![输入提示](E:\Program\socket_chat_room\socket-image\10.png)
+![输入提示](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/10.png)
 
 ## 远程服务器测试
 
 进行远程服务器测试步骤：        
 1、将用于socket通信的远程服务器的端口打开，注意是**出方向**和**入方向**同时打开。
 
-![服务器端口设置](E:\Program\socket_chat_room\socket-image\11.png)
+![服务器端口设置](https://github.com/FmKnight/socket_chat_room/blob/master/socket-image/11.png)
 
 2、将远程服务器ip绑定为"0.0.0.0",即允许监听所有端口。
 ![远程测试端口](E:/Program/socket_chat_room/socket-image/12.png)
